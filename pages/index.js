@@ -1,24 +1,34 @@
 import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import Fab from '@mui/material/Fab';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import Divider from '@mui/material/Divider';
+import ElevateAppBar from '../src/components/ElevateAppBar';
+import ScrollTop from '../src/components/ScrollTop';
+import Contact from '../src/components/Contact';
+import Header from '../src/components/Header';
+import Intro from '../src/components/Intro';
 
-export default function Index() {
+export default function Index(props) {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Material UI - Next.js example
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
+    <div>
+      <Box sx={{ height: '100%' }}>
+        <ElevateAppBar />
+        <main>
+          <Box sx={{ width: '100%', height: '100%' }}>
+            <Divider />
+            <Header />
+            <Intro />
+            <Divider />
+            <Contact />
+          </Box>
+        </main>
       </Box>
-    </Container>
+      <ScrollTop {...props}>
+        <Fab color="secondary" size="small">
+          <KeyboardArrowUpIcon />
+        </Fab>
+      </ScrollTop>
+    </div>
   );
 }
