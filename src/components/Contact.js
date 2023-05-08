@@ -1,11 +1,12 @@
 import React from 'react';
+import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Box from '@mui/material/Box';
 
 export default function Contact() {
   return (
@@ -16,19 +17,10 @@ export default function Contact() {
         minHeight: 650,
         background: 'transparent',
         backgroundImage: 'linear-gradient(180deg, #fff 400px, primary.main 0%)',
+        padding: (theme) => theme.spacing(6, 2),
       }}
     >
-      <Box
-        sx={{
-          width: '100%',
-          margin: '0 auto',
-          maxWidth: '1140px',
-          padding: (theme) => ({
-            sm: theme.spacing(12, 2),
-            md: theme.spacing(6, 2),
-          }),
-        }}
-      >
+      <Container>
         <div className="aos-init aos-animate" data-aos="fade-up">
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
@@ -82,6 +74,7 @@ export default function Contact() {
                           variant="h4"
                           align="center"
                           fontWeight="bold"
+                          sx={{ fontSize: { xs: '1.5rem', sm: '2.125rem' } }}
                           gutterBottom
                         >
                           Write something 😀
@@ -142,7 +135,7 @@ export default function Contact() {
             </Grid>
           </Grid>
         </div>
-      </Box>
+      </Container>
     </Box>
   );
 }

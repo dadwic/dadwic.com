@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import clsx from 'clsx';
 import { styled } from '@mui/material/styles';
@@ -6,6 +7,7 @@ import Grid from '@mui/material/Grid';
 import MuiCard from '@mui/material/Card';
 import MuiCardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
 import classes from './styles.module.css';
 
 const Card = styled(MuiCard)({
@@ -37,35 +39,33 @@ const CardContent = styled(MuiCardContent)(({ theme }) => ({
 export default function Intro() {
   return (
     <Box
+      id="intro"
+      component="section"
       sx={{
         height: '100%',
         display: 'flex',
         alignItems: 'center',
         flexDirection: 'column',
         justifyContent: 'center',
+        padding: (theme) => theme.spacing(6, 2),
         background: 'transparent',
         backgroundImage:
           'linear-gradient(180deg, rgb(247, 249, 250) 100%, #fff 0%)',
       }}
     >
-      <Box
-        component="section"
-        id="intro"
-        sx={{
-          width: '100%',
-          margin: '0 auto',
-          maxWidth: '1140px',
-          padding: (theme) => theme.spacing(10, 2),
-        }}
-      >
+      <Container>
         <div className="jarallax">
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Grid container spacing={2}>
                 <Grid item md={6} xs={12}>
-                  <Grid container spacing={2}>
+                  <Grid container spacing={1}>
                     <Grid item xs={12}>
-                      <Typography variant="overline" color="primary">
+                      <Typography
+                        variant="overline"
+                        fontWeight={600}
+                        color="primary"
+                      >
                         100+ Projects
                       </Typography>
                     </Grid>
@@ -206,19 +206,23 @@ export default function Intro() {
                   </Grid>
                 </Grid>
                 <Grid item md={6} xs={12}>
-                  <Grid container spacing={2}>
+                  <Grid container spacing={1}>
                     <Grid item xs={12}>
-                      <Typography variant="overline" color="primary">
+                      <Typography
+                        variant="overline"
+                        color="primary"
+                        fontWeight={600}
+                      >
                         20+ Technologies
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
                       <Typography
                         variant="h4"
-                        component="h2"
+                        component="h3"
                         color="textPrimary"
                       >
-                        Technology Stacks
+                        Technology Stack
                       </Typography>
                     </Grid>
                     <Grid item xs={12}>
@@ -247,7 +251,7 @@ export default function Intro() {
             </Grid>
           </Grid>
         </div>
-      </Box>
+      </Container>
     </Box>
   );
 }

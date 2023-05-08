@@ -1,0 +1,770 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiBox-root css-10klw3m"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+        >
+          <div
+            class="MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root"
+          >
+            <a
+              class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-m5x0z-MuiTypography-root"
+              href="/"
+            >
+              DADWIC
+            </a>
+            <hr
+              class="MuiDivider-root MuiDivider-middle MuiDivider-vertical MuiDivider-flexItem css-q1suzg-MuiDivider-root"
+            />
+            <div
+              class="MuiBox-root css-1lvtzne"
+            >
+              <button
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                aria-label="account of current user"
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-1pz7awu-MuiButtonBase-root-MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="MenuIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <a
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap css-1lfs2tq-MuiTypography-root"
+              href="/"
+            >
+              DADWIC
+            </a>
+            <div
+              class="MuiBox-root css-1t6c9ts"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1q39md6-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Intro
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1q39md6-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                Contact
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiBox-root css-2uchni"
+            >
+              <a
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                href="https://github.com/dadwic"
+                rel="noopener noreferrer"
+                tabindex="0"
+                target="_blank"
+                title="GitHub"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+                  data-testid="GitHubIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </a>
+              <a
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                href="https://www.linkedin.com/in/dadwic/"
+                rel="noopener noreferrer"
+                tabindex="0"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+                  data-testid="LinkedInIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </a>
+              <a
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                href="https://www.upwork.com/fl/dadwic"
+                rel="noopener noreferrer"
+                tabindex="0"
+                target="_blank"
+                title="Upwork"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-17slstj-MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076l.008-.042c.207-1.143.849-3.06 2.839-3.06a2.705 2.705 0 0 1 2.703 2.703a2.707 2.707 0 0 1-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366c-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112a2.551 2.551 0 0 1-2.547 2.548a2.55 2.55 0 0 1-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303c2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109c3 0 5.439-2.452 5.439-5.45c0-3-2.439-5.439-5.439-5.439z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-y3lr6e-MuiToolbar-root"
+        id="back-to-top-anchor"
+      />
+      <main>
+        <div
+          class="MuiBox-root css-uwwqev"
+        >
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+          />
+          <div
+            class="MuiBox-root css-17jtm37"
+          >
+            <section
+              class="MuiBox-root css-17zxwct"
+            >
+              <div
+                class="jarallax"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-rnlf1k-MuiAvatar-root"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ha5wk2-MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 540 402"
+                      >
+                        <path
+                          d="M358.22,201.09l180.91-58.77L427.31,296.2V105.99l111.81,153.88L358.22,201.09z M370.55,308.04  C311.49,401.38,187.94,429.16,94.6,370.1S-26.52,187.48,32.54,94.15S215.16-26.98,308.49,32.09c25.03,15.84,46.22,37.03,62.06,62.06  C311.49,28.42,210.32,23.02,144.6,82.09s-71.12,160.23-12.06,225.95s160.23,71.12,225.95,12.06  C362.72,316.3,366.75,312.27,370.55,308.04z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                  >
+                    <h1
+                      class="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter css-x51a70-MuiTypography-root"
+                    >
+                      Mehrdad Mehralian
+                    </h1>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-154h0am-MuiGrid-root"
+                  >
+                    <h2
+                      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignRight css-12ut4z-MuiTypography-root"
+                    >
+                      Full-Stack Web Developer
+                    </h2>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical MuiDivider-flexItem css-18wtylv-MuiDivider-root"
+                    />
+                    <h2
+                      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignLeft css-3yo4by-MuiTypography-root"
+                    >
+                      Top Rated Plus Freelancer
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1o49j4e-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium css-ci5apu-MuiSvgIcon-root"
+                data-testid="KeyboardArrowDownIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <section
+            class="MuiBox-root css-ikqgxw"
+            id="intro"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+            >
+              <div
+                class="jarallax"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <span
+                              class="MuiTypography-root MuiTypography-overline css-1nhawg-MuiTypography-root"
+                            >
+                              100+ Projects
+                            </span>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <h2
+                              class="MuiTypography-root MuiTypography-h4 css-wz9of0-MuiTypography-root"
+                            >
+                              Web Development
+                            </h2>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <h3
+                              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+                            >
+                              My approach focuses on creating seamless user experiences by combining the power of front-end technologies like React and responsive design principles. With a strong emphasis on back-end development using Node.js and MongoDB, you ensure efficient data management and API integrations. Leveraging modern tools and collaborative workflows, you deliver high-quality web applications through rigorous testing and version control practices.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate css-1fyyp8j-MuiGrid-root"
+                        data-aos="fade-up"
+                      >
+                        <span
+                          class="lazy-load-image-background opacity lazy-load-image-loaded"
+                          style="color: transparent; display: inline-block; height: auto; width: auto;"
+                        >
+                          <img
+                            alt="Integrations"
+                            class="illustration"
+                            height="auto"
+                            src="/images/illustrations/progressive-app.svg"
+                            width="auto"
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 aos-init aos-animate css-1fyyp8j-MuiGrid-root"
+                        data-aos="fade-up"
+                      >
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="PHP"
+                                  class="image cardImg"
+                                  src="/images/logos/php.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="Laravel"
+                                  class="image cardImg"
+                                  src="/images/logos/laravel.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="Node.js"
+                                  class="image cardImg"
+                                  src="/images/logos/nodejs.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="React"
+                                  class="image cardImg"
+                                  src="/images/logos/react.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="Next.js"
+                                  class="image cardImg"
+                                  src="/images/logos/nextjs.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-gj1fbr-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root card css-rxqbvc-MuiPaper-root-MuiCard-root"
+                            >
+                              <div
+                                class="MuiCardContent-root cardContent css-nn3en1-MuiCardContent-root"
+                              >
+                                <img
+                                  alt="Material-UI"
+                                  class="image cardImg"
+                                  src="/images/logos/mui.svg"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+                      >
+                        <div
+                          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <span
+                              class="MuiTypography-root MuiTypography-overline css-3rc-MuiTypography-root"
+                            >
+                              20+ Technologies
+                            </span>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <h3
+                              class="MuiTypography-root MuiTypography-h4 css-wz9of0-MuiTypography-root"
+                            >
+                              Technology Stack
+                            </h3>
+                          </div>
+                          <div
+                            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                          >
+                            <h3
+                              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+                            >
+                              My tech stack includes PHP and WordPress for rapid and scalable content management system (CMS) development, while Node.js and MongoDB provide the flexibility and power for building robust back-end APIs and managing data storage. With GraphQL, React, and TypeScript, I can create dynamic and efficient front-end interfaces, leveraging the benefits of type safety and seamless data fetching. Utilizing Next.js, MUI, and AWS, my stack ensures smooth performance, responsive designs, and reliable deployment, empowering me to deliver high-quality web applications.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr
+            class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+          />
+          <section
+            class="MuiBox-root css-hng2oa"
+            id="contact"
+          >
+            <div
+              class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+            >
+              <div
+                class="aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 css-480o17-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+                  >
+                    <h4
+                      class="MuiTypography-root MuiTypography-h4 MuiTypography-alignLeft MuiTypography-gutterBottom css-13ad3n7-MuiTypography-root"
+                    >
+                      Contact
+                    </h4>
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+                    >
+                      You can easily find me on LinkedIn, the best place where we can in touch with me.
+                      <br />
+                      For further communication, I prefer telephone conversations or video conferences.
+                    </h6>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 css-1kb29oq-MuiTypography-root"
+                    >
+                      If you have any questions or need additional information, please let me know. Please send your message and your contact info via below contact form easily.
+                    </h6>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-1an47wb-MuiTypography-root"
+                    >
+                      I appreciate your attention and look forward to doing business with you.
+                    </h6>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                    >
+                      <div
+                        class="MuiCardContent-root css-dvn2u-MuiCardContent-root"
+                      >
+                        <form
+                          novalidate=""
+                          sx="[object Object]"
+                        >
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                            >
+                              <h4
+                                class="MuiTypography-root MuiTypography-h4 MuiTypography-alignCenter MuiTypography-gutterBottom css-3ghdlz-MuiTypography-root"
+                              >
+                                Write something 😀
+                              </h4>
+                            </div>
+                          </div>
+                          <br />
+                          <div
+                            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+                          >
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                                  data-shrink="false"
+                                  for=":r0:"
+                                  id=":r0:-label"
+                                >
+                                  Full Name
+                                  <span
+                                    aria-hidden="true"
+                                    class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                                  >
+                                     
+                                    *
+                                  </span>
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    autocomplete="cc-name"
+                                    class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                                    id=":r0:"
+                                    name="fullName"
+                                    required=""
+                                    type="text"
+                                    value=""
+                                  />
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                                  >
+                                    <legend
+                                      class="css-yjsfm1"
+                                    >
+                                      <span>
+                                        Full Name
+                                         
+                                        *
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-1b3l6lk-MuiGrid-root"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                                  data-shrink="false"
+                                  for=":r1:"
+                                  id=":r1:-label"
+                                >
+                                  E-mail
+                                  <span
+                                    aria-hidden="true"
+                                    class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                                  >
+                                     
+                                    *
+                                  </span>
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+                                >
+                                  <input
+                                    aria-invalid="false"
+                                    autocomplete="email"
+                                    class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                                    id=":r1:"
+                                    name="email"
+                                    required=""
+                                    type="text"
+                                    value=""
+                                  />
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                                  >
+                                    <legend
+                                      class="css-yjsfm1"
+                                    >
+                                      <span>
+                                        E-mail
+                                         
+                                        *
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                            >
+                              <div
+                                class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                              >
+                                <label
+                                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                                  data-shrink="false"
+                                  for=":r2:"
+                                  id=":r2:-label"
+                                >
+                                  Message
+                                  <span
+                                    aria-hidden="true"
+                                    class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                                  >
+                                     
+                                    *
+                                  </span>
+                                </label>
+                                <div
+                                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root"
+                                >
+                                  <textarea
+                                    aria-invalid="false"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+                                    id=":r2:"
+                                    required=""
+                                    rows="4"
+                                    style="height: 0px; overflow: hidden;"
+                                  />
+                                  <textarea
+                                    aria-hidden="true"
+                                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input"
+                                    readonly=""
+                                    style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); padding: 0px; width: 100%;"
+                                    tabindex="-1"
+                                  />
+                                  <fieldset
+                                    aria-hidden="true"
+                                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                                  >
+                                    <legend
+                                      class="css-yjsfm1"
+                                    >
+                                      <span>
+                                        Message
+                                         
+                                        *
+                                      </span>
+                                    </legend>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+                            >
+                              <h6
+                                class="MuiTypography-root MuiTypography-subtitle2 MuiTypography-gutterBottom css-1oxen2w-MuiTypography-root"
+                              >
+                                Fields that are marked with * sign are required.
+                              </h6>
+                              <button
+                                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-vfd6q8-MuiButtonBase-root-MuiButton-root"
+                                disabled=""
+                                tabindex="-1"
+                                type="submit"
+                              >
+                                Send
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <div
+      class="MuiBox-root css-mgur8"
+      role="presentation"
+      style="opacity: 0; visibility: hidden;"
+    >
+      <button
+        class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-secondary MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-secondary css-9rrh7h-MuiButtonBase-root-MuiFab-root"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="KeyboardArrowUpIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

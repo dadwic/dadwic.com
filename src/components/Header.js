@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
+import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import SvgIcon from '@mui/material/SvgIcon';
@@ -67,8 +68,8 @@ export default function Header() {
               <Typography
                 variant="h3"
                 component="h1"
-                fontWeight={700}
                 align="center"
+                fontWeight={500}
                 sx={{ fontSize: { xs: '2rem', sm: '3rem' } }}
               >
                 Mehrdad Mehralian
@@ -77,16 +78,30 @@ export default function Header() {
             <Grid
               item
               xs={12}
-              sx={{ display: 'flex', justifyContent: 'center' }}
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
             >
-              <Typography variant="h6" component="h2" color="textSecondary">
+              <Typography
+                variant="h6"
+                component="h2"
+                color="textSecondary"
+                align="right"
+                sx={{ fontSize: { xs: '1rem', sm: '1.25rem' } }}
+              >
                 Full-Stack Web Developer
               </Typography>
-              <SvgIcon viewBox=" 0 0 320 512" sx={{ mx: 1 }}>
-                <path d="M16 144a144 144 0 1 1 288 0A144 144 0 1 1 16 144zM160 80c8.8 0 16-7.2 16-16s-7.2-16-16-16c-53 0-96 43-96 96c0 8.8 7.2 16 16 16s16-7.2 16-16c0-35.3 28.7-64 64-64zM128 480V317.1c10.4 1.9 21.1 2.9 32 2.9s21.6-1 32-2.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
-              </SvgIcon>
-              <Typography variant="h6" color="textSecondary" fontWeight={300}>
-                Istanbul, Türkiye
+              <Divider orientation="vertical" sx={{ mx: 2 }} flexItem />
+              <Typography
+                variant="h6"
+                component="h2"
+                color="textSecondary"
+                align="left"
+                sx={{ fontSize: { xs: '1rem', sm: '1.25rem' } }}
+              >
+                Top Rated Plus Freelancer
               </Typography>
             </Grid>
           </Grid>
