@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
 import clsx from 'clsx';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';

@@ -1,4 +1,3 @@
-import React from 'react';
 import ScrollTop from './ScrollTop';
 
 describe('<ScrollTop />', () => {

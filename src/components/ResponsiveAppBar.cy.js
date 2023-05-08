@@ -1,4 +1,3 @@
-import React from 'react';
 import ResponsiveAppBar from './ResponsiveAppBar';
 
 describe('<ResponsiveAppBar />', () => {

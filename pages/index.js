@@ -1,8 +1,7 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import Fab from '@mui/material/Fab';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Divider from '@mui/material/Divider';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import ElevateAppBar from '../src/components/ElevateAppBar';
 import ScrollTop from '../src/components/ScrollTop';
 import Contact from '../src/components/Contact';

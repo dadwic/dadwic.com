@@ -1,7 +1,6 @@
-import * as React from 'react';
-import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Fade from '@mui/material/Fade';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
 
 export default function ScrollTop(props) {
   const { children, window } = props;
