@@ -33,21 +33,14 @@ export default function Contact() {
   });
 
   const onSubmit = handleSubmit(async (contact) => {
-    try {
-      setLoading(true);
-      const { ok, statusText } = await fetch('api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(contact),
-      });
-      setLoading(false);
-      setSuccess(ok);
-      alert(statusText);
-    } catch (error) {
-      console.log(error);
-      setSuccess(false);
-      setLoading(false);
-    }
+    setLoading(true);
+    const { ok } = await fetch('api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(contact),
+    });
+    setLoading(false);
+    setSuccess(ok);
   });
 
   return (
@@ -112,7 +105,7 @@ export default function Contact() {
                     <Typography
                       component="p"
                       align="center"
-                      variant="button"
+                      variant="subtitle2"
                       sx={{ fontSize: '1.25em' }}
                     >
                       Thank you for your message&nbsp;❤️

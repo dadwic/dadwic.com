@@ -4,7 +4,7 @@ exports.up = async function (sql) {
         id SERIAL PRIMARY KEY NOT NULL,
         name CHARACTER VARYING(255) NOT NULL,
         email CHARACTER VARYING(255) NOT NULL,
-        message CHARACTER VARYING(255) NOT NULL,
+        message CHARACTER VARYING(255) NOT NULL
     )
   `;
 };

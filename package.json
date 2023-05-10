@@ -10,6 +10,8 @@
     "test": "jest --watch",
     "test:ci": "jest --ci",
     "cypress": "cypress open",
+    "migrate:up": "ley up",
+    "migrate:down": "ley down",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
   "dependencies": {
