@@ -4,6 +4,7 @@ import AOS from 'aos';
 import Head from 'next/head';
 import Script from 'next/script';
 import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
@@ -99,6 +100,7 @@ export default function MyApp(props) {
           src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
         />
         <Component {...pageProps} />
+        <Analytics />
       </ThemeProvider>
     </CacheProvider>
   );
