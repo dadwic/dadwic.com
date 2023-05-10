@@ -116,6 +116,7 @@ export default function Header() {
           cursor: 'pointer',
         }}
         onClick={handleClick}
+        role="button"
       >
         <KeyboardArrowDownIcon color="primary" />
       </IconButton>
