@@ -79,6 +79,10 @@ export default function MyApp(props) {
           }}
         />
         <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        />
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
