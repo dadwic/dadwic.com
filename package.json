@@ -26,6 +26,7 @@
     "aos": "^2.3.4",
     "clsx": "^1.2.1",
     "next": "latest",
+    "node-telegram-bot-api": "^0.63.0",
     "postgres": "^3.3.4",
     "prop-types": "latest",
     "react": "latest",
