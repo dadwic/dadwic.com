@@ -36,9 +36,7 @@ export default async function handler(req, res) {
     // can log it into the Vercel console
     console.error('Error sending message');
     console.log(error.toString());
+    // Send an error
+    res.status(500).send({ error: error.toString() });
   }
-
-  // Acknowledge the message with Telegram
-  // by sending a 200 HTTP status code
-  res.send('OK');
 }
