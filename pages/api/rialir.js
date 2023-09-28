@@ -21,7 +21,8 @@ export default async function handler(req, res) {
       } = body.message;
 
       // Admin chatId
-      if (id === process.env.CHAT_ID) {
+      // if (id === process.env.CHAT_ID) {
+        console.log({chatId: id})
         // Create a message to send back
         // We can use Markdown inside this
         const message = `✅ TRY: *"${text}"*`;
@@ -31,7 +32,7 @@ export default async function handler(req, res) {
         // Send our new message back in Markdown and
         // wait for the request to finish
         await bot.sendMessage(id, message, { parse_mode: 'Markdown' });
-      }
+      // }
     }
   } catch (error) {
     // If there was an error sending our message then we
