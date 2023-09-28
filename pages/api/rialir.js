@@ -3,7 +3,7 @@ import TelegramBot from 'node-telegram-bot-api';
 
 export default async function handler(req, res) {
   try {
-    const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
+    const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
 
     // Retrieve the POST request body that gets sent from Telegram
     const { body } = req;
@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       if (id == process.env.CHAT_ID) {
         // Create a message to send back
         // We can use Markdown inside this
-        const message = `✅ TRY: *"${text}"*`;
+        const message = `✅ TRY: *${text}*`;
 
         // Update try rate
         const data = await rialir.update(text);
