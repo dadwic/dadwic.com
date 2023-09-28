@@ -3,9 +3,6 @@ import TelegramBot from 'node-telegram-bot-api';
 
 export default async function handler(req, res) {
   try {
-    // Create our new bot handler with the token
-    // that the Botfather gave us
-    // Use an environment variable so we don't expose it in our code
     const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
 
     // Retrieve the POST request body that gets sent from Telegram
@@ -20,19 +17,19 @@ export default async function handler(req, res) {
         text,
       } = body.message;
 
-      // Admin chatId
-      // if (id === process.env.CHAT_ID) {
-        console.log({chatId: id})
+      // Check the admin chatId
+      if (id == process.env.CHAT_ID) {
         // Create a message to send back
         // We can use Markdown inside this
         const message = `✅ TRY: *"${text}"*`;
 
         // Update try rate
-        res.status(200).json(await rialir.update(text));
-        // Send our new message back in Markdown and
-        // wait for the request to finish
+        const data = await rialir.update(text);
+        // Send our new message back in Markdown
         await bot.sendMessage(id, message, { parse_mode: 'Markdown' });
-      // }
+        // Send a 200 HTTP status code
+        res.status(200).json(data);
+      }
     }
   } catch (error) {
     // If there was an error sending our message then we
@@ -43,6 +40,5 @@ export default async function handler(req, res) {
 
   // Acknowledge the message with Telegram
   // by sending a 200 HTTP status code
-  // The message here doesn't matter.
   res.send('OK');
 }
