@@ -3,7 +3,7 @@ import TelegramBot from 'node-telegram-bot-api';
 
 export default async function handler(req, res) {
   try {
-    const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
+    const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
 
     // Retrieve the POST request body that gets sent from Telegram
     const { body } = req;
@@ -23,12 +23,10 @@ export default async function handler(req, res) {
         // We can use Markdown inside this
         const message = `✅ TRY: *${text}*`;
 
-        // Update try rate
-        const data = await rialir.update(text);
-        // Send our new message back in Markdown
+        // Send a new message back in Markdown
         await bot.sendMessage(id, message, { parse_mode: 'Markdown' });
-        // Send a 200 HTTP status code
-        res.status(200).json(data);
+        // Update try rate
+        res.status(200).json(await rialir.update(text));
       }
     }
   } catch (error) {
@@ -36,7 +34,9 @@ export default async function handler(req, res) {
     // can log it into the Vercel console
     console.error('Error sending message');
     console.log(error.toString());
-    // Send an error
-    res.status(500).send({ error: error.toString() });
   }
+
+  // Acknowledge the message with Telegram
+  // by sending a 200 HTTP status code
+  res.send('OK');
 }
