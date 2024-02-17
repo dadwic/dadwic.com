@@ -1,3 +1,4 @@
+import moment from 'moment';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
@@ -6,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import SvgIcon from '@mui/material/SvgIcon';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import 'moment-precise-range-plugin';
 
 export default function Header() {
   const handleClick = (event) => {
@@ -47,6 +49,7 @@ export default function Header() {
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Avatar
+                onClick={() => alert(moment().preciseDiff('2021-08-28'))}
                 sx={{
                   margin: '0 auto',
                   backgroundColor: 'primary.main',
