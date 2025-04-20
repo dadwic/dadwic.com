@@ -49,7 +49,7 @@ export default function Header() {
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Avatar
-                onClick={() => alert(moment().preciseDiff('2021-08-28'))}
+                onClick={() => alert(moment().preciseDiff('2022-10-11'))}
                 sx={{
                   margin: '0 auto',
                   backgroundColor: 'primary.main',
