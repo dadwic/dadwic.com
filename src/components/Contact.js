@@ -65,7 +65,7 @@ export default function Contact() {
               <Link target="_blank" href="https://www.linkedin.com/in/dadwic/">
                 <LinkedInIcon color="action" />
                 <Typography variant="h6" color="textSecondary" component="span">
-                  Connect on LinkedIn
+                  Follow on LinkedIn
                 </Typography>
               </Link>
               <Divider />
