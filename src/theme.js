@@ -1,3 +1,4 @@
+'use client';
 import { Open_Sans } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
@@ -9,9 +10,10 @@ export const openSans = Open_Sans({
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
-// Create a theme instance.
 const theme = createTheme({
+  cssVariables: true,
   palette: {
+    mode: 'light',
     primary: {
       main: '#e30a17',
     },
@@ -24,6 +26,22 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: openSans.style.fontFamily,
+  },
+  components: {
+    MuiAlert: {
+      styleOverrides: {
+        root: {
+          variants: [
+            {
+              props: { severity: 'info' },
+              style: {
+                backgroundColor: '#60a5fa',
+              },
+            },
+          ],
+        },
+      },
+    },
   },
 });
 

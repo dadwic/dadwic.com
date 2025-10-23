@@ -1,13 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-import clsx from 'clsx';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import MuiCard from '@mui/material/Card';
 import MuiCardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import classes from './styles.module.css';
+import Typography from '@mui/material/Typography';
 
 const Card = styled(MuiCard)({
   width: '100%',
@@ -33,6 +30,12 @@ const CardContent = styled(MuiCardContent)(({ theme }) => ({
       padding: '48px 24px',
     },
   },
+  '& img': {
+    width: '100%',
+    height: '100%',
+    display: 'block',
+    maxWidth: '64px',
+  },
 }));
 
 export default function Intro() {
@@ -53,199 +56,156 @@ export default function Intro() {
       }}
     >
       <Container>
-        <div className="jarallax">
-          <Grid container spacing={2}>
-            <Grid size={12}>
-              <Grid container spacing={2}>
-                <Grid size={{ xs: 12, md: 6 }}>
-                  <Grid container spacing={1}>
-                    <Grid size={12}>
-                      <Typography
-                        variant="overline"
-                        fontWeight={600}
-                        color="primary"
-                      >
-                        100+ Projects
-                      </Typography>
-                    </Grid>
-                    <Grid size={12}>
-                      <Typography
-                        variant="h4"
-                        component="h2"
-                        color="textPrimary"
-                      >
-                        Web Development
-                      </Typography>
-                    </Grid>
-                    <Grid size={12}>
-                      <Typography
-                        component="h3"
-                        variant="subtitle1"
-                        color="textSecondary"
-                        align="left"
-                      >
-                        My approach focuses on creating seamless user
-                        experiences by combining the power of front-end
-                        technologies like React and responsive design
-                        principles. With a strong emphasis on back-end
-                        development using Node.js and MongoDB, you ensure
-                        efficient data management and API integrations.
-                        Leveraging modern tools and collaborative workflows, you
-                        deliver high-quality web applications through rigorous
-                        testing and version control practices.
-                      </Typography>
-                    </Grid>
+        <Grid container spacing={2}>
+          <Grid size={12}>
+            <Grid container spacing={2}>
+              <Grid size={{ xs: 12, md: 6 }}>
+                <Grid container spacing={1}>
+                  <Grid size={12}>
+                    <Typography
+                      variant="overline"
+                      fontWeight={600}
+                      color="primary"
+                    >
+                      100+ Projects
+                    </Typography>
                   </Grid>
-                </Grid>
-                <Grid
-                  size={{ xs: 12, md: 6 }}
-                  className="aos-init aos-animate"
-                  data-aos="fade-up"
-                >
-                  <span
-                    style={{
-                      color: 'transparent',
-                      display: 'inline-block',
-                      height: 'auto',
-                      width: 'auto',
-                    }}
-                    className={clsx(
-                      'lazy-load-image-background opacity lazy-load-image-loaded'
-                    )}
-                  >
-                    <img
-                      width="auto"
-                      height="auto"
-                      alt="Integrations"
-                      src="/images/illustrations/progressive-app.svg"
-                      className={classes.illustration}
-                    />
-                  </span>
+                  <Grid size={12}>
+                    <Typography variant="h4" component="h2" color="textPrimary">
+                      Web Development
+                    </Typography>
+                  </Grid>
+                  <Grid size={12}>
+                    <Typography
+                      component="h3"
+                      variant="subtitle1"
+                      color="textSecondary"
+                      align="left"
+                    >
+                      My approach focuses on creating seamless user experiences
+                      by combining the power of front-end technologies like
+                      React and responsive design principles. With a strong
+                      emphasis on back-end development using Node.js and
+                      MongoDB, you ensure efficient data management and API
+                      integrations. Leveraging modern tools and collaborative
+                      workflows, you deliver high-quality web applications
+                      through rigorous testing and version control practices.
+                    </Typography>
+                  </Grid>
                 </Grid>
               </Grid>
-            </Grid>
-            <Grid size={12}>
-              <Grid container spacing={4}>
-                <Grid
-                  size={{ xs: 12, md: 6 }}
-                  className="aos-init aos-animate"
-                  data-aos="fade-up"
+              <Grid size={{ xs: 12, md: 6 }}>
+                <span
+                  style={{
+                    color: 'transparent',
+                    display: 'inline-block',
+                    height: 'auto',
+                    width: 'auto',
+                  }}
                 >
-                  <Grid container spacing={2}>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="PHP"
-                            src="/images/logos/php.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="Laravel"
-                            src="/images/logos/laravel.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="Node.js"
-                            src="/images/logos/nodejs.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="React"
-                            src="/images/logos/react.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="Next.js"
-                            src="/images/logos/nextjs.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
-                    <Grid size={{ xs: 4 }}>
-                      <Card className={classes.card}>
-                        <CardContent className={classes.cardContent}>
-                          <img
-                            alt="Material-UI"
-                            src="/images/logos/mui.svg"
-                            className={clsx(classes.image, classes.cardImg)}
-                          />
-                        </CardContent>
-                      </Card>
-                    </Grid>
+                  <img
+                    width="auto"
+                    height="auto"
+                    alt="Integrations"
+                    src="/images/illustrations/progressive-app.svg"
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      display: 'block',
+                    }}
+                  />
+                </span>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid size={12}>
+            <Grid container spacing={4}>
+              <Grid size={{ xs: 12, md: 6 }}>
+                <Grid container spacing={2}>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="PHP" src="/images/logos/php.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="Laravel" src="/images/logos/laravel.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="Node.js" src="/images/logos/nodejs.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="React" src="/images/logos/react.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="Next.js" src="/images/logos/nextjs.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="Material-UI" src="/images/logos/mui.svg" />
+                      </CardContent>
+                    </Card>
                   </Grid>
                 </Grid>
-                <Grid size={{ xs: 12, md: 6 }}>
-                  <Grid container spacing={1}>
-                    <Grid size={12}>
-                      <Typography
-                        variant="overline"
-                        color="primary"
-                        fontWeight={600}
-                      >
-                        20+ Technologies
-                      </Typography>
-                    </Grid>
-                    <Grid size={12}>
-                      <Typography
-                        variant="h4"
-                        component="h3"
-                        color="textPrimary"
-                      >
-                        Technology Stack
-                      </Typography>
-                    </Grid>
-                    <Grid size={12}>
-                      <Typography
-                        variant="subtitle1"
-                        component="h3"
-                        color="textSecondary"
-                        align="left"
-                      >
-                        My tech stack includes PHP and WordPress for rapid and
-                        scalable content management system (CMS) development,
-                        while Node.js and MongoDB provide the flexibility and
-                        power for building robust back-end APIs and managing
-                        data storage. With GraphQL, React, and TypeScript, I can
-                        create dynamic and efficient front-end interfaces,
-                        leveraging the benefits of type safety and seamless data
-                        fetching. Utilizing Next.js, MUI, and AWS, my stack
-                        ensures smooth performance, responsive designs, and
-                        reliable deployment, empowering me to deliver
-                        high-quality web applications.
-                      </Typography>
-                    </Grid>
+              </Grid>
+              <Grid size={{ xs: 12, md: 6 }}>
+                <Grid container spacing={1}>
+                  <Grid size={12}>
+                    <Typography
+                      variant="overline"
+                      color="primary"
+                      fontWeight={600}
+                    >
+                      20+ Technologies
+                    </Typography>
+                  </Grid>
+                  <Grid size={12}>
+                    <Typography variant="h4" component="h3" color="textPrimary">
+                      Technology Stack
+                    </Typography>
+                  </Grid>
+                  <Grid size={12}>
+                    <Typography
+                      variant="subtitle1"
+                      component="h3"
+                      color="textSecondary"
+                      align="left"
+                    >
+                      My tech stack includes PHP and WordPress for rapid and
+                      scalable content management system (CMS) development,
+                      while Node.js and MongoDB provide the flexibility and
+                      power for building robust back-end APIs and managing data
+                      storage. With GraphQL, React, and TypeScript, I can create
+                      dynamic and efficient front-end interfaces, leveraging the
+                      benefits of type safety and seamless data fetching.
+                      Utilizing Next.js, MUI, and AWS, my stack ensures smooth
+                      performance, responsive designs, and reliable deployment,
+                      empowering me to deliver high-quality web applications.
+                    </Typography>
                   </Grid>
                 </Grid>
               </Grid>
             </Grid>
           </Grid>
-        </div>
+        </Grid>
       </Container>
     </Box>
   );

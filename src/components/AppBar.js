@@ -1,6 +1,8 @@
+'use client';
+
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import AppBar from '@mui/material/AppBar';
+import MuiAppBar from '@mui/material/AppBar';
 import Divider from '@mui/material/Divider';
 import SvgIcon from '@mui/material/SvgIcon';
 import Toolbar from '@mui/material/Toolbar';
@@ -16,7 +18,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const pages = ['Intro', 'Contact'];
 
-function ResponsiveAppBar() {
+export default function AppBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -35,7 +37,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <MuiAppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -173,7 +175,6 @@ function ResponsiveAppBar() {
           </Box>
         </Toolbar>
       </Container>
-    </AppBar>
+    </MuiAppBar>
   );
 }
-export default ResponsiveAppBar;
