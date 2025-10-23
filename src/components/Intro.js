@@ -58,7 +58,7 @@ export default function Intro() {
       <Container>
         <Grid container spacing={2}>
           <Grid size={12}>
-            <Grid container spacing={2}>
+            <Grid container spacing={8}>
               <Grid size={{ xs: 12, md: 6 }}>
                 <Grid container spacing={1}>
                   <Grid size={12}>
@@ -80,7 +80,7 @@ export default function Intro() {
                       component="h3"
                       variant="subtitle1"
                       color="textSecondary"
-                      align="left"
+                      align="justify"
                     >
                       My approach focuses on creating seamless user experiences
                       by combining the power of front-end technologies like
@@ -119,7 +119,7 @@ export default function Intro() {
             </Grid>
           </Grid>
           <Grid size={12}>
-            <Grid container spacing={4}>
+            <Grid container spacing={8}>
               <Grid size={{ xs: 12, md: 6 }}>
                 <Grid container spacing={2}>
                   <Grid size={{ xs: 4 }}>
@@ -191,7 +191,7 @@ export default function Intro() {
                       variant="subtitle1"
                       component="h3"
                       color="textSecondary"
-                      align="left"
+                      align="justify"
                     >
                       My tech stack focuses on React, Next.js, TypeScript,
                       Node.js, MongoDB, MUI, and AWS. React and MUI allow me to
