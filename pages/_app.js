@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import AOS from 'aos';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -16,15 +15,7 @@ import 'aos/dist/aos.css';
 const clientSideEmotionCache = createEmotionCache();
 
 export default function MyApp(props) {
-  const router = useRouter();
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
-
-  useEffect(() => {
-    router.events.on('routeChangeComplete', handleRouteChange);
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
 
   useEffect(() => {
     // Remove the server-side injected CSS.
