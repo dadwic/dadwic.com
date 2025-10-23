@@ -47,7 +47,7 @@ export default function Header() {
       >
         <div className="jarallax">
           <Grid container spacing={2}>
-            <Grid item xs={12}>
+            <Grid size={12}>
               <Avatar
                 onClick={() => alert(moment().preciseDiff('2022-10-11'))}
                 sx={{
@@ -66,7 +66,7 @@ export default function Header() {
                 </SvgIcon>
               </Avatar>
             </Grid>
-            <Grid item xs={12}>
+            <Grid size={12}>
               <Typography
                 variant="h3"
                 component="h1"
@@ -78,8 +78,7 @@ export default function Header() {
               </Typography>
             </Grid>
             <Grid
-              item
-              xs={12}
+              size={12}
               sx={{
                 display: 'flex',
                 alignItems: 'center',

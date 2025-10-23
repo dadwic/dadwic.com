@@ -55,11 +55,11 @@ export default function Intro() {
       <Container>
         <div className="jarallax">
           <Grid container spacing={2}>
-            <Grid item xs={12}>
+            <Grid size={12}>
               <Grid container spacing={2}>
-                <Grid item md={6} xs={12}>
+                <Grid size={{ xs: 12, md: 6 }}>
                   <Grid container spacing={1}>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         variant="overline"
                         fontWeight={600}
@@ -68,7 +68,7 @@ export default function Intro() {
                         100+ Projects
                       </Typography>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         variant="h4"
                         component="h2"
@@ -77,7 +77,7 @@ export default function Intro() {
                         Web Development
                       </Typography>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         component="h3"
                         variant="subtitle1"
@@ -98,9 +98,7 @@ export default function Intro() {
                   </Grid>
                 </Grid>
                 <Grid
-                  item
-                  md={6}
-                  xs={12}
+                  size={{ xs: 12, md: 6 }}
                   className="aos-init aos-animate"
                   data-aos="fade-up"
                 >
@@ -126,17 +124,15 @@ export default function Intro() {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={12}>
+            <Grid size={12}>
               <Grid container spacing={4}>
                 <Grid
-                  item
-                  md={6}
-                  xs={12}
+                  size={{ xs: 12, md: 6 }}
                   className="aos-init aos-animate"
                   data-aos="fade-up"
                 >
                   <Grid container spacing={2}>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -147,7 +143,7 @@ export default function Intro() {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -158,7 +154,7 @@ export default function Intro() {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -169,7 +165,7 @@ export default function Intro() {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -180,7 +176,7 @@ export default function Intro() {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -191,7 +187,7 @@ export default function Intro() {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid size={{ xs: 4 }}>
                       <Card className={classes.card}>
                         <CardContent className={classes.cardContent}>
                           <img
@@ -204,9 +200,9 @@ export default function Intro() {
                     </Grid>
                   </Grid>
                 </Grid>
-                <Grid item md={6} xs={12}>
+                <Grid size={{ xs: 12, md: 6 }}>
                   <Grid container spacing={1}>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         variant="overline"
                         color="primary"
@@ -215,7 +211,7 @@ export default function Intro() {
                         20+ Technologies
                       </Typography>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         variant="h4"
                         component="h3"
@@ -224,7 +220,7 @@ export default function Intro() {
                         Technology Stack
                       </Typography>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid size={12}>
                       <Typography
                         variant="subtitle1"
                         component="h3"
