@@ -34,7 +34,7 @@ const CardContent = styled(MuiCardContent)(({ theme }) => ({
     width: '100%',
     height: '100%',
     display: 'block',
-    maxWidth: '64px',
+    maxWidth: '80px',
   },
 }));
 
@@ -125,21 +125,25 @@ export default function Intro() {
                   <Grid size={{ xs: 4 }}>
                     <Card>
                       <CardContent>
-                        <img alt="PHP" src="/images/logos/php.svg" />
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid size={{ xs: 4 }}>
-                    <Card>
-                      <CardContent>
-                        <img alt="Laravel" src="/images/logos/laravel.svg" />
-                      </CardContent>
-                    </Card>
-                  </Grid>
-                  <Grid size={{ xs: 4 }}>
-                    <Card>
-                      <CardContent>
                         <img alt="Node.js" src="/images/logos/nodejs.svg" />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img
+                          alt="MongoDB"
+                          src="/images/logos/mongodb.svg"
+                          style={{ maxWidth: 120 }}
+                        />
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                  <Grid size={{ xs: 4 }}>
+                    <Card>
+                      <CardContent>
+                        <img alt="AWS" src="/images/logos/aws.svg" />
                       </CardContent>
                     </Card>
                   </Grid>
@@ -189,16 +193,15 @@ export default function Intro() {
                       color="textSecondary"
                       align="left"
                     >
-                      My tech stack includes PHP and WordPress for rapid and
-                      scalable content management system (CMS) development,
-                      while Node.js and MongoDB provide the flexibility and
-                      power for building robust back-end APIs and managing data
-                      storage. With GraphQL, React, and TypeScript, I can create
-                      dynamic and efficient front-end interfaces, leveraging the
-                      benefits of type safety and seamless data fetching.
-                      Utilizing Next.js, MUI, and AWS, my stack ensures smooth
-                      performance, responsive designs, and reliable deployment,
-                      empowering me to deliver high-quality web applications.
+                      My tech stack focuses on React, Next.js, TypeScript,
+                      Node.js, MongoDB, MUI, and AWS. React and MUI allow me to
+                      build dynamic, responsive, and user-friendly interfaces.
+                      Node.js and MongoDB power scalable back-end APIs and
+                      efficient data handling. Next.js ensures high performance
+                      and SEO-friendly web applications, while AWS provides
+                      secure and reliable deployment. This stack lets me deliver
+                      full-stack web solutions that are fast, maintainable, and
+                      optimized.
                     </Typography>
                   </Grid>
                 </Grid>

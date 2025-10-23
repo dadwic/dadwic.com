@@ -1,7 +1,6 @@
 {
-  "name": "material-ui-nextjs",
-  "version": "7.0.0",
-  "private": true,
+  "name": "dadwic.com",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
