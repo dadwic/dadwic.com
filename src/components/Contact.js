@@ -75,6 +75,20 @@ export default function Contact() {
                   mehralian@rialir.com
                 </Typography>
               </Link>
+              <Stack direction="row" spacing={1}>
+                <Link
+                  target="_blank"
+                  href="https://apps.apple.com/us/app/rialir-com-try-exchange-rates/id6498321738"
+                >
+                  <img src="/images/app/AppStore.svg" height={40} />
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.rialir"
+                >
+                  <img src="/images/app/GooglePlay.png" height={40} />
+                </Link>
+              </Stack>
             </Stack>
           </Grid>
         </Grid>
