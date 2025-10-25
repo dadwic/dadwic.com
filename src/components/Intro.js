@@ -157,7 +157,11 @@ export default function Intro() {
                   <Grid size={{ xs: 4 }}>
                     <Card>
                       <CardContent>
-                        <img alt="Next.js" src="/images/logos/nextjs.svg" />
+                        <img
+                          alt="Next.js"
+                          src="/images/logos/nextjs.svg"
+                          style={{ maxWidth: 100 }}
+                        />
                       </CardContent>
                     </Card>
                   </Grid>
