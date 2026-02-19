@@ -72,7 +72,7 @@ export default function Header() {
               align="right"
               sx={{ fontSize: { xs: '1rem', sm: '1.25rem' } }}
             >
-              Full-Stack Web Developer
+              Senior Full-Stack Engineer
             </Typography>
             <Divider orientation="vertical" sx={{ mx: 2 }} flexItem />
             <Typography
@@ -82,7 +82,7 @@ export default function Header() {
               align="left"
               sx={{ fontSize: { xs: '1rem', sm: '1.25rem' } }}
             >
-              Top Rated Plus Freelancer
+              Upwork Top Rated Freelancer
             </Typography>
           </Box>
         </Stack>
