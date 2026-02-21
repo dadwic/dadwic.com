@@ -163,7 +163,7 @@ export default function AppBar() {
               title="Upwork"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.upwork.com/fl/dadwic"
+              href="https://www.upwork.com/freelancers/~0111233058ae561879"
             >
               <SvgIcon viewBox="0 0 24 24" sx={{ color: '#fff' }}>
                 <path
